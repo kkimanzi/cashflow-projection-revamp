@@ -1,0 +1,1 @@
+ALTER TABLE "member" ADD COLUMN "scopes" text[] DEFAULT '{}' NOT NULL;
