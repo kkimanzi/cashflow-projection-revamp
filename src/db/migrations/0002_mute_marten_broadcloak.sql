@@ -1,0 +1,1 @@
+ALTER TABLE "user" ADD COLUMN "is_paying_customer" boolean DEFAULT false;

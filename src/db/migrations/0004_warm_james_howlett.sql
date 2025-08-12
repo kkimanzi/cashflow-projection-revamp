@@ -1,0 +1,2 @@
+ALTER TABLE "projected_recurring_transaction_override" ADD COLUMN "skip" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "recurring_transaction_template" ADD COLUMN "is_fixed" boolean DEFAULT false NOT NULL;
